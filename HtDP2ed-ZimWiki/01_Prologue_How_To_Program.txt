@@ -47,11 +47,25 @@ The ORIGIN is at position (0, 0) on the scene:
 ===== Input and Output =====
 In the book: [[https://htdp.org/2020-8-1/Book/part_prologue.html#%28part._some-i%2Fo%29|Input and Output]]
 
+'''
+y = the image that contains a dot x² pixels below the top.
+'''
+
+Functions: input → Output
+
+Define function with formal parameters and apply the function supplying arguments.
+
 ===== Many Ways to Compute =====
 In The Book: [[https://htdp.org/2020-8-1/Book/part_prologue.html#%28part._pro-cond%29|Many Ways to Compute]]
 
+{{./math-function-sign.png}}
+
+
+
 ===== One Program, Many Definitions =====
 In The Book: [[https://htdp.org/2020-8-1/Book/part_prologue.html#%28part._pro-many-def%29|One Program, Many Definitions]]
+
+
 
 ===== One More Definition =====
 In The Book: [[https://htdp.org/2020-8-1/Book/part_prologue.html#%28part._more-def%29|One More Definition]]
