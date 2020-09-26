@@ -1,0 +1,9 @@
+#
+# FILE: .gitignore
+#
+
+#
+# DrRacket backup files.
+#
+*.rkt~
+

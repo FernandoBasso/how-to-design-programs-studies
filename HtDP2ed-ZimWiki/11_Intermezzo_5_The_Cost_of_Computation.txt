@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-09-26T10:44:35-03:00
+
+====== 11 Intermezzo 5 The Cost of Computation ======
+Created Saturday 26 September 2020
+
