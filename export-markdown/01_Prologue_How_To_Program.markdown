@@ -41,13 +41,25 @@ Input and Output
 ----------------
 In the book: [Input and Output](https://htdp.org/2020-8-1/Book/part_prologue.html#%28part._some-i%2Fo%29)
 
+	y = the image that contains a dot x² pixels below the top.
+
+Functions: input → Output
+
+Define function with formal parameters and apply the function supplying arguments.
+
 Many Ways to Compute
 --------------------
 In The Book: [Many Ways to Compute](https://htdp.org/2020-8-1/Book/part_prologue.html#%28part._pro-cond%29)
 
+![](./01_Prologue_How_To_Program/math-function-sign.png)
+
+
+
 One Program, Many Definitions
 -----------------------------
 In The Book: [One Program, Many Definitions](https://htdp.org/2020-8-1/Book/part_prologue.html#%28part._pro-many-def%29)
+
+
 
 One More Definition
 -------------------
