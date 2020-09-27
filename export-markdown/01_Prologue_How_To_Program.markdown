@@ -59,7 +59,9 @@ One Program, Many Definitions
 -----------------------------
 In The Book: [One Program, Many Definitions](https://htdp.org/2020-8-1/Book/part_prologue.html#%28part._pro-many-def%29)
 
+Use of constants to avoid magic numbers.
 
+Constants MUST be defined in the order as they are used. If a second constant depends on the value of some other constant, that other constant must be defined first.
 
 One More Definition
 -------------------

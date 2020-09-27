@@ -64,7 +64,7 @@ to load code on those files into the REPL. It seems the files must start with **
 
 	#lang htdp/bsl
 
-<https://github.com/greghendershott/racket-mode/issues/125][Topic about images in htdp/bsl that shows some useful things.> May come in handy at some point.
+<https://github.com/greghendershott/racket-mode/issues/125][Topic%20about%20images%20in%20htdp/bsl%20that%20shows%20some%20useful%20things.> May come in handy at some point.
 
 To run tests like those with ``check-expect``, your ``.rkt`` file must start with one of these (beginner/intermediate/advanced student languages. The “+” a few more features.
 
@@ -78,8 +78,11 @@ or
 
 ``#reader(lib "htdp-beginner-reader.ss" "lang")((modname area-tests) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))``
 
-``C-c C-k`` runs fine with the http languages (``C-c C-a`` does not work for the teaching languages).
-``C-u C-c C-z`` brings one to the REPL in the current module/file.
+Emacs, Geiser
+-------------
+``C-u C-c C-z`` or ``C-c C-a`` brings one to the REPL in the current module/file. It DISPLAY IMAGES! 💖️
+
+``C-c C-k`` runs fine with the http languages (``C-c C-a`` ~~does not work for the teaching languages~~).
 
 But not both.
 
