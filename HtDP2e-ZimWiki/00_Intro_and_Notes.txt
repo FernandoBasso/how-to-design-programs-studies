@@ -84,8 +84,10 @@ or
 
 ''#reader(lib "htdp-beginner-reader.ss" "lang")((modname area-tests) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))''
 
-''C-c C-k'' runs fine with the http languages (''C-c C-a'' does not work for the teaching languages).
-''C-u C-c C-z'' brings one to the REPL in the current module/file.
+===== Emacs, Geiser =====
+''C-u C-c C-z'' or ''C-c C-a'' brings one to the REPL in the current module/file. It DISPLAY IMAGES! 💖️
+
+''C-c C-k'' runs fine with the http languages (''C-c C-a'' ~~does not work for the teaching languages~~).
 
 But not both.
 

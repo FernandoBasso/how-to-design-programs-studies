@@ -60,4 +60,3 @@
     [(> h UFO-CENTER-TO-TOP)
      (place-image UFO CENTER-X UFO-CENTER-TO-TOP BLUISH-SCENE)]))
 
-(animate pic-ufo)
