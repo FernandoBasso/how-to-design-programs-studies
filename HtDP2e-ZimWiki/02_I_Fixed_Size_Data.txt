@@ -5,3 +5,189 @@ Creation-Date: 2020-09-26T10:43:22-03:00
 ====== 02 I Fixed Size Data ======
 Created Saturday 26 September 2020
 
+===== 1 Arithmetic =====
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._ch~3abasic-arithmetic%29|I Fixed Size Data]]
+
+==== 1.1 The Arithmetic of Numbers ====
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3aarith-num%29|The Arithmetic of Numbers]]
+
+Expressions like these:
+
+'''
+(+ 1 (+ 1 (+ 1 1) 2) 3 (+ 2 2) 5)
+(+ 1 (+ 1 2 2) 3 4 5)
+(+ 1 5 3 4 5)
+18
+'''
+
+Atomic data is data that cannot be further inspected.
+
+BSL uses //prefix notation//, that is ''(+ 1 2)'' rather than something like ''1 + 2''.
+
+''+'', ''-'', ''*'', ''/'', ''abs'', ''add1'', ''ceiling'', ''denominator'', ''exact->inexact'', ''expt'', ''floor'', ''gcd'', ''log'', ''max'', ''numerator'', ''quotient'', ''random'', ''remainder'', ''sqr'', and ''tan''.
+
+''pi'', ''e''
+
+Emacs Geiser does not show #i for inexact numbers:
+'''
+(sqrt 2)
+1.4142135623730951
+'''
+
+DrRacket does:
+'''
+(sqrt 2)
+#i1.4142135623730951
+'''
+
+==== 1.2 The Arithmetic of Strings ====
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3aarith-str%29|The Arithmetic of Strings]]
+
+''1String'' such as ''"z"''. Three such ''1String''s may be used to for the name of a color: ''"red"'' ([[https://htdp.org/2020-8-1/Book/part_one.html#%28tech._1string%29|more about 1String]]). Simply put, they are strings of length 1.
+
+In BSL, **only** ''string-append'' consume and produce strings. Other operations either consume or produce other types of data.
+
+==== 1.3 Mixing It Up ====
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3aarith-mix%29|Mixing It Up]]
+
+(substring "Lara Croft" 0 4)
+"Lara"
+(substring "Lara Croft" 5)
+"Croft"
+
+Wait!! It looks like ''substring'' **also** consumes and produces string (unless we get an error like index out of range, but erros can happen with ''string-append'' too.
+
+==== 1.4 The Arithmetic of Images ====
+
+
+==== 1.5 The Arithmetic of Booleans ====
+
+
+==== 1.6 Mixing It Up with Booleans ====
+
+
+==== 1.7 Predicates: Know Thy Data ====
+
+
+===== 2 Functions and Programs =====
+
+
+==== 2.1 Functions ====
+
+
+==== 2.2 Computing ====
+
+
+==== 2.3 Composing Functions ====
+
+
+==== 2.4 Global Constants ====
+
+
+==== 2.5 Programs ====
+
+
+===== 3 How to Design Programs =====
+
+
+==== 3.1 Designing Functions ====
+
+
+==== 3.2 Finger Exercises: Functions ====
+
+
+==== 3.3 Domain Knowledge ====
+
+
+==== 3.4 From Functions to Programs ====
+
+
+==== 3.5 On Testing ====
+
+
+==== 3.6 Designing World Programs ====
+
+
+==== 3.7 Virtual Pet Worlds ====
+
+
+===== 4 Intervals, Enumerations, and Itemizations =====
+
+
+==== 4.1 Programming with Conditionals ====
+
+
+==== 4.2 Computing Conditionally ====
+
+
+==== 4.3 Enumerations ====
+
+
+==== 4.4 Intervals ====
+
+
+==== 4.5 Itemizations ====
+
+
+==== 4.6 Designing with Itemizations ====
+
+
+==== 4.7 Finite State Worlds ====
+
+
+===== 5 Adding Structure =====
+
+
+==== 5.1 From Positions to posn Structures ====
+
+
+==== 5.2 Computing with posns ====
+
+
+==== 5.3 Programming with posn ====
+
+
+==== 5.4 Defining Structure Types ====
+
+
+==== 5.5 Computing with Structures ====
+
+
+==== 5.6 Programming with Structures ====
+
+
+==== 5.7 The Universe of Data ====
+
+
+==== 5.8 Designing with Structures ====
+
+
+==== 5.9 Structure in the World ====
+
+
+==== 5.10 A Graphical Editor ====
+
+
+==== 5.11 More Virtual Pets ====
+
+
+===== 6 Itemizations and Structures =====
+
+
+==== 6.1 Designing with Itemizations, Again ====
+
+
+==== 6.2 Mixing Up Worlds ====
+
+
+==== 6.3 Input Errors ====
+
+
+==== 6.4 Checking the World ====
+
+
+==== 6.5 Equality Predicates ====
+
+
+===== 7 Summary =====
+

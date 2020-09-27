@@ -99,6 +99,13 @@ $ raco test file.rkt
 
 Thanks to lexi-lambada@racket (irc). He refused to change his nick to lexi-λ as I suggested, though.
 
+===== Racket Mode =====
+https://racket-mode.com/
+
+Docs for thing at point: ''C-c C-d''.
+Insert lambda: ''C-m-y''.
+
+
 ===== Other libs used in the book =====
 
 * [[https://docs.racket-lang.org/teachpack/2htdpimage.html|2htdp/image]] → ''bitmap''
@@ -118,6 +125,41 @@ Thanks to lexi-lambada@racket (irc). He refused to change his nick to lexi-λ as
 
 **TIP**: On wide screens, you may find it useful to display the interactions pane on the right side (instead of at the bottom). Go to “View → Use Horizontal Layout”. There is a setting in Preferences too.
 
+
+
+===== Zim Notes =====
+
+Copy the list of headings from the top of each part/section, and then, in vim:
+
+Double space each line:
+'''
+global :^.*$: s/\&/\r\r/
+'''
+
+Make <digit><space><anything> heading a heading two level:
+'''
+s/^\d .\+$/===== & =====/
+'''
+
+Make <digit>.<anything> a heading three level:
+'''
+%s/^\d\..* .\+$/==== & ====/g
+'''
+
+Then in Zim, “Tools → Edit Source” and paste the contents.
+
+===== How to name source files =====
+The “e” after the two digit number stands for “example”, and the “x” for “eXercise”. Had to make something up... I like review by opening the files in the order as I wrote them according to the book's examples and exercises. Picked two digit numbers because I think there won't be more than 999 source files when I finish this book.
+
+e001e-functions.rkt
+e002e-strings.rkt
+e003x-functions.rkt
+e004x-strings.rkt
+
+The next chapter than continues from the next number.
+
+e05e-foo.rkt
+e05x-foo.rkt
 
 
 
