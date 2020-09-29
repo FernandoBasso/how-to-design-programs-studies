@@ -161,8 +161,9 @@ The next chapter than continues from the next number.
 e05e-foo.rkt
 e05x-foo.rkt
 
+===== Images =====
 
-
+* [[https://www.pinterest.co.uk/sonjaeisenbeiss/drawing-animals-using-simple-shapes/|Drawing Animals Using Simple Shapes]]
 
 
 

@@ -40,6 +40,8 @@ DrRacket does:
 #i1.4142135623730951
 '''
 
+However, Emacs with racket-mode REPL **does show #i** for inexact numbers.
+
 ==== 1.2 The Arithmetic of Strings ====
 In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3aarith-str%29|The Arithmetic of Strings]]
 
@@ -58,7 +60,9 @@ In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3aarith
 Wait!! It looks like ''substring'' **also** consumes and produces string (unless we get an error like index out of range, but erros can happen with ''string-append'' too.
 
 ==== 1.4 The Arithmetic of Images ====
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3aarith-images%29|The Arithmetic of Images]]
 
+Anchor point.
 
 ==== 1.5 The Arithmetic of Booleans ====
 
