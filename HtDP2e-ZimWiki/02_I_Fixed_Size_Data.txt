@@ -65,12 +65,47 @@ In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3aarith
 Anchor point.
 
 ==== 1.5 The Arithmetic of Booleans ====
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3aarith-bools%29|The Arithmetic of Booleans]]
+
+'''
+#true  #t  #false  #f
+(and ...)
+(or ...)
+(not ...)
+'''
 
 
 ==== 1.6 Mixing It Up with Booleans ====
-
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3aboolean-if%29|Mixing It Up with Booleans]]
 
 ==== 1.7 Predicates: Know Thy Data ====
+In te book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3apredicates%29|Predicates: Know Thy Data]]
+
+BSL, also choose to use finite approximations to well-known constants, which leads to somewhat surprising results with the ''rational?'' predicate:
+
+'''
+(rational? pi)
+;; → #t
+
+(rational? e)
+;; → #t
+'''
+
+BUT:
+
+'''
+(exact? pi)
+;; → #f
+
+(exact? e)
+;; → #f
+
+(inexact? pi)
+;; → #t
+
+(inexact? e)
+;; → #t
+'''
 
 
 ===== 2 Functions and Programs =====
