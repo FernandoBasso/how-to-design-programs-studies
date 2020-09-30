@@ -109,9 +109,16 @@ BUT:
 
 
 ===== 2 Functions and Programs =====
-
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._ch~3afuncs-progs%29|Functions and Programs]]
 
 ==== 2.1 Functions ====
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3afuncs%29|Functions]]
+
+Functions take input, //arguments// or //parameters//. A one-argument function is a //unary// function. There are also //binary //(two args), //ternary //(three args).
+
+“The variables in a function header, that is, the variables that follow the function name, are placeholders for **unknown** pieces of data, the inputs of the function.”
+
+Define a function, then **apply** the function.
 
 
 ==== 2.2 Computing ====
