@@ -9,9 +9,10 @@
 ;; Computes the distance of the point (x, y) to the origin.
 ;;
 (define (distance-from-origin x y)
-  (sqrt (+ (expt x 2) (expt y 2))))
+  (sqrt (+ (sqrt x) (sqrt y))))
 
-(distance-from-origin 1 1)
+;(distance-from-origin 1 1)
 
-(distance-from-origin 12 5)
+;(distance-from-origin 12 5)
 
+(distance-from-origin 3 4)

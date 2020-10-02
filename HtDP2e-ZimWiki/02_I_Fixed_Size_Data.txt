@@ -120,11 +120,11 @@ Functions take input, //arguments// or //parameters//. A one-argument function i
 
 Define a function, then **apply** the function.
 
-
 ==== 2.2 Computing ====
-
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3acomputing%29|Computing]]
 
 ==== 2.3 Composing Functions ====
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3acomposing%29|Composing Functions]]
 
 
 ==== 2.4 Global Constants ====
