@@ -139,10 +139,41 @@ Define one function per task.
 
 
 ==== 2.4 Global Constants ====
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3aglobal%29|Global Constants]]
 
+The name of a constant is a ''global variable'' while the definition is called a ''constant definition''. We tend to call the expression in a constant definition the ''right-hand side'' of the definition.
+
+'''
+; the current price of a movie ticket:
+(define CURRENT-PRICE 5)
+ 
+; useful to compute the area of a disk:
+(define ALMOST-PI 3.14)
+ 
+; a blank line:
+(define NL "\n")
+ 
+; an empty scene:
+(define MT (empty-scene 100 100))
+
+(define WIDTH 100)
+(define HEIGHT 200)
+ 
+(define MID-WIDTH (/ WIDTH 2))
+(define MID-HEIGHT (/ HEIGHT 2))
+'''
+
+
+Computed constants.
+
+For every constant mentioned in a problem statement, introduce one constant definition.
 
 ==== 2.5 Programs ====
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3aprogs%29|Programs]]
 
+Batch vs interactive programs. Inputs are events. Event-driven programs. Event-handlers.
+
+Big-bang 2htdp/univers, world programs.
 
 ===== 3 How to Design Programs =====
 
