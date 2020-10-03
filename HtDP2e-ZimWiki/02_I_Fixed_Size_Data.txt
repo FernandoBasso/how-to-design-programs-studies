@@ -126,6 +126,17 @@ In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3acompu
 ==== 2.3 Composing Functions ====
 In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3acomposing%29|Composing Functions]]
 
+“Typically, programs consist of a main definition and several other functions and turn the result of one function application into the input for another. In analogy to algebra, we call this way of defining functions //composition//, and we call these additional functions //auxiliary functions// or //helper functions//.”
+
+'''
+#lang htdp/bsl
+(require 2htdp/batch-io)
+(write-file 'stdout (letter ...))
+'''
+
+
+Define one function per task.
+
 
 ==== 2.4 Global Constants ====
 
