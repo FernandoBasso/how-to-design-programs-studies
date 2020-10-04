@@ -176,13 +176,60 @@ Batch vs interactive programs. Inputs are events. Event-driven programs. Event-h
 Big-bang 2htdp/univers, world programs.
 
 ===== 3 How to Design Programs =====
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._ch~3ahtdp%29|How to Design Programs]]
 
+garage programming
+programmign product
 
 ==== 3.1 Designing Functions ====
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3adesign-func%29|Designing Functions]]
+
+information from the //domain//
+
+information: facts about a problem domain
+
+Process information and turn it into data for the program to work with. Once finished, data is turned into information again and displayed to the users somehow.
+
+{{./domain-info-data.png?width=316}}
+
+Given the central role of information and data, program design must start with the connection between them. Specifically, we, the programmers, must decide how to use our chosen programming language to represent the relevant pieces of information as data and how we should interpret data as information.
+
+Data Definitions!
+
+Lowest possible temperature -274ª C.
+
+
+=== From Problem Analysis to Data Definitions ===
+
+Identify the information that must be represented and how it is represented in the chosen programming language. Formulate data definitions and illustrate them with examples.
+
+=== Signature, Purpose Statement, Header ===
+
+State what kind of data the desired function consumes and produces. Formulate a concise answer to the question what the function computes. Define a stub that lives up to the signature.
+
+=== Functional Examples ===
+
+Work through examples that illustrate the function’s purpose.
+
+=== Function Template ===
+
+Translate the data definitions into an outline of the function.
+
+=== Function Definition ===
+
+Fill in the gaps in the function template. Exploit the purpose statement and the examples.
+
+=== Testing ===
+
+Articulate the examples as tests and ensure that the function passes all. Doing so discovers mistakes. Tests also supplement examples in that they help others read and understand the definition when the need arises—and it will arise for any serious program.
+
+Purpose statement: “What does this function compute?”
+
+Every reader of your program should understand what your functions compute without having to read the function itself.
 
 
 ==== 3.2 Finger Exercises: Functions ====
-
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3afinger-design%29|Finger Exercises: Functions]]
 
 ==== 3.3 Domain Knowledge ====
 
