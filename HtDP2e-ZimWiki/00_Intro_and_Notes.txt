@@ -152,17 +152,11 @@ Then in Zim, “Tools → Edit Source” and paste the contents.
 
 Files starting with “e” mean “Example”, and “ex” mean “EXercise”.
 
-e001-functions.rkt
-e002-strings.rkt
-ex001-foo.rkt
+Name each source file incrementally and a descriptive name:
 
-
-The next chapter than continues from the next number of examples and exercises.
-
-e003-functions.rkt
-e004-strings.rkt
-ex002-bar.rkt
-ex003-fn.rkt
+e001e-function.rkt (example from the book, note “e???e...”)
+e002e-images.rkt
+e003p-draw-tree.rkt (practice exercise, note “e003**p**”...).
 
 
 ===== Images =====
