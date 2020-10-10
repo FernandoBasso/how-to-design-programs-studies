@@ -232,15 +232,17 @@ Every reader of your program should understand what your functions compute witho
 In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3afinger-design%29|Finger Exercises: Functions]]
 
 ==== 3.3 Domain Knowledge ====
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3adomain%29|Domain Knowledge]]
 
 
 ==== 3.4 From Functions to Programs ====
-
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3adesign%29|From Functions to Programs]]
 
 ==== 3.5 On Testing ====
-
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3atesting%29|On Testing]]
 
 ==== 3.6 Designing World Programs ====
+In the book [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._.D.K._sec~3adesign-world%29|Designing World Problems]]
 
 
 ==== 3.7 Virtual Pet Worlds ====
