@@ -8,6 +8,8 @@ Created Friday 25 September 2020
 * [[https://htdp.org/2020-8-1/Book/part_prologue.html#(part._arithmetic-pro)|HTDP Part 1, Prologue: How To Program]]
 * [[https://docs.racket-lang.org/htdp-langs/beginner.html#%28def._htdp-beginner._%28%28lib._lang%2Fhtdp-beginner..rkt%29._string-~3enumber%29%29|Beginning Student Language (http/bsl)]]
 
+{{./systematiic-program-design.png}}
+
 
 ===== Arithmetic and Arithmetic =====
 In the book: [[https://htdp.org/2020-8-1/Book/part_prologue.html#%28part._arithmetic-pro%29|Arithmetic and Arithmetic]]

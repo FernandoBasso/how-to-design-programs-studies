@@ -242,10 +242,11 @@ In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3adesig
 In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3atesting%29|On Testing]]
 
 ==== 3.6 Designing World Programs ====
-In the book [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._.D.K._sec~3adesign-world%29|Designing World Problems]]
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._.D.K._sec~3adesign-world%29|Designing World Problems]]
 
 
 ==== 3.7 Virtual Pet Worlds ====
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3azoo1%29|Virtual Pet Worlds]]
 
 
 ===== 4 Intervals, Enumerations, and Itemizations =====

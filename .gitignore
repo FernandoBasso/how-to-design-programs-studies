@@ -1,9 +1,26 @@
-#
+##
 # FILE: .gitignore
-#
+##
 
-#
+##
 # DrRacket backup files.
 #
 *.rkt~
+
+
+##
+# Temporary dev files.
+#
+[0-9]dev.rkt
+
+##
+# Sometimes I record videos of the program running. Not sure yet
+# whether I should commit them. Perhaps just upload somewhere and
+# link to the videos...
+#
+Videos/
+
+#
+# vim: set tw=68:
+#
 
