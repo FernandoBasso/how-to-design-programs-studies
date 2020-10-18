@@ -250,13 +250,34 @@ In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3azoo1%
 
 
 ===== 4 Intervals, Enumerations, and Itemizations =====
-
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._ch~3aintervals-enums%29|Intervals, Enumerations, and Itemizations]]
 
 ==== 4.1 Programming with Conditionals ====
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3acond%29|Programming with Conditionals]]
 
+''cond'' expression, //cond clause// (cond lines, two expressions)
+
+'''
+(< 1 2 3) ; #t
+(< 1 2 2) ; #f
+(< 1 10 100) ; #t
+(< 1 10 100 99) #f
+'''
+
+contrast with
+
+'''
+if (1 < 2 & 2 < 3) ...
+'''
+
+In ''cond'', the else clause is the **complement** of all the previous conditions.
+
+{{./cond-else.png}}
+
+Read: “if s is a value between 0 and 10. Easy, cool, elegant, short!
 
 ==== 4.2 Computing Conditionally ====
-
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3aworks%29|Computing Conditionally]]
 
 ==== 4.3 Enumerations ====
 
