@@ -279,8 +279,11 @@ Read: “if s is a value between 0 and 10. Easy, cool, elegant, short!
 ==== 4.2 Computing Conditionally ====
 In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3aworks%29|Computing Conditionally]]
 
-==== 4.3 Enumerations ====
 
+==== 4.3 Enumerations ====
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3aenums%29|Enumerations]]
+
+Enumeration: a data representation in which every possibility is listed.
 
 ==== 4.4 Intervals ====
 
