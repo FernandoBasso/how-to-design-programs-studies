@@ -19,14 +19,14 @@ Created Saturday 26 September 2020
 * [[https://gist.github.com/FernandoBasso/c3f772fff707af3cd2c592e60af77529|How to use htpd/bsl from emacs or command line (my gist)]]
 * [[https://gitlab.com/jaor/geiser/-/issues/193|htdp/sbl support?]] (issue I openned for Geiser)
 * [[https://stackoverflow.com/questions/25711372/emacs-key-bindings-in-drracket|Emacs key bindings in DrRacket?]]
-* [[https://blog.racket-lang.org/2009/03/the-drscheme-repl-isnt-the-one-in-emacs.html|the DrScheme repl isn’t the one in Emacs]]
+* [[https://blog.racket-lang.org/2009/03/the-drscheme-repl-isnt-the-one-in-emacs.html|The DrScheme repl isn’t the one in Emacs]]
 
 
-1. Add the repos to .emacs or init.el as described in
+1. Add the repos to ''.emacs'' or ''init.el'' as described in
    https://melpa.org/#/getting-started.
-2. Run `M-x RET package-refresh-contents RET` (they don't mention it
+2. Run ''M-x RET package-refresh-contents RET'' (they don't mention it
    in the tutorial).
-3. Run `M-x RET package-install geiser RET`.
+3. Run ''M-x RET package-install geiser RET''.
 
 Geiser info pages:
 
@@ -49,15 +49,13 @@ In geiser REPL you can do
 (enter! "projs/main.rkt")
 '''
 
-
-to load code on those files into the REPL. It seems the files must start with **''#lang racket''** or some thing like that.  Or, if you are editing a ''.rkt'' file and want to "enter" it into the REPL:
+to load code on those files into the REPL. It seems the files must start with **''#lang racket''** or something like that.  Or, if you are editing a ''.rkt'' file and want to "enter" it into the REPL:
 
 '''
 C-c C-a
 '''
 
 http://www.nongnu.org/geiser/geiser_5.html
-
 
 https://docs.racket-lang.org/reference/interactive.html
 
@@ -85,7 +83,7 @@ or
 ''#reader(lib "htdp-beginner-reader.ss" "lang")((modname area-tests) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))''
 
 ===== Emacs, Geiser =====
-''C-u C-c C-z'' or ''C-c C-a'' brings one to the REPL in the current module/file. It DISPLAY IMAGES! 💖️
+''C-u C-c C-z'' or ''C-c C-a'' brings one to the REPL in the current module/file. It DISPLAYS IMAGES! 💖️
 
 ''C-c C-k'' runs fine with the http languages (''C-c C-a'' ~~does not work for the teaching languages~~).
 
@@ -148,16 +146,18 @@ Make <digit>.<anything> a heading three level:
 
 Then in Zim, “Tools → Edit Source” and paste the contents.
 
-===== How to name source files =====
+===== Naming Source Files =====
 
-Files starting with “e” mean “Example”, and “ex” mean “EXercise”.
-
-Name each source file incrementally and a descriptive name:
+Name each source file incrementally and append a descriptive name:
 
 e001e-function.rkt (example from the book, note “e???e...”)
 e002e-images.rkt
-e003p-draw-tree.rkt (practice exercise, note “e003**p**”...).
+e070p49-rocket-cond.rkt
+e071p50-tests-traffic-light.rkt
 
+“n” is the exercise number, like “e070p49-rocket-cond.rkt”, meaing we are at the file 70 written so far, but the practice exercise is 49.
+
+For “World Programs”, use a “wp” as well, like in “e075p51-wp-traffic-light.rkt”.
 
 ===== Images =====
 

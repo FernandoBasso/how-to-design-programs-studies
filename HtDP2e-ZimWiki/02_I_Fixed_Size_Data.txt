@@ -285,6 +285,24 @@ In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3aenums
 
 Enumeration: a data representation in which every possibility is listed.
 
+=== Exercise 51 ===
+[[https://htdp.org/2020-8-1/Book/part_one.html#%28counter._%28exercise._cond3%29%29|Exercise 51]]
+
+'''
+22:47:27 Fernando-Basso | In exercise 51, “What is the most appropriate      
+                        | initial state? Ask your engineering friends.” I am finding 
+                        | it hard to follow without having somewhere to look         
+                        | afterwards and get an ideia if I got even close to         
+                        | something descent.                                         
+01:44:10          samth | Fernando-Basso: it doesn't matter what initial state you   
+                        | pick                                                       
+01:44:27          samth | Fernando-Basso: but the right choice is to do something    
+                        | safe as the initial state    
+'''
+                              
+
+
+
 ==== 4.4 Intervals ====
 
 
