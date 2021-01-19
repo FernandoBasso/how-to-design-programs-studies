@@ -346,7 +346,11 @@ A: So I can assert the “edges” of the intervals, and other not-so-obvious ca
 
 
 ==== 4.7 Finite State Worlds ====
+In the book: [[https://htdp.org/2020-8-1/Book/part_one.html#%28part._sec~3aworlds-more%29|Finite State Worlds]]
 
+State Transition Diagram: labels on arrows indicate why the state changed.
+
+“In many situations, state transition diagrams have only a finite number of states and arrows. Computer scientists call such diagrams //finite state machines// (FSM), also known as //finite state automata// (FSA). Despite their simplicity, FSMs/FSAs play an important role in computer science.”
 
 ===== 5 Adding Structure =====
 
