@@ -14,6 +14,17 @@
 [0-9]dev.rkt
 
 ##
+# Temporary Xournal files.
+#
+[0-9]dev.xoj
+
+##
+# Emacs backup and temporary files.
+#
+*#
+*~
+
+##
 # Sometimes I record videos of the program running. Not sure yet
 # whether I should commit them. Perhaps just upload somewhere and
 # link to the videos...

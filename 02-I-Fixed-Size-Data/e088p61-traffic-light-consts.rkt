@@ -46,6 +46,13 @@
 (define GREEN 1)
 (define YELLOW 2)
 
+(check-expect (add 0 0) (+ 0 0))
+(check-expect (add 1 1) (+ 1 1))
+(check-expect (add -1 -1) (+ -1 -1))
+
+(define (add x y)
+  (+ x y))
+
 ;;
 ; An S-TrafficLight is one of:
 ; • RED

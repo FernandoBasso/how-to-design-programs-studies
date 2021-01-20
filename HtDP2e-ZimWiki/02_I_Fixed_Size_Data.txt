@@ -352,6 +352,38 @@ State Transition Diagram: labels on arrows indicate why the state changed.
 
 “In many situations, state transition diagrams have only a finite number of states and arrows. Computer scientists call such diagrams //finite state machines// (FSM), also known as //finite state automata// (FSA). Despite their simplicity, FSMs/FSAs play an important role in computer science.”
 
+--------------------
+We also keep in mind the lesson of exercise 61, namely, that it is best to define symbolic constants and formulate data definitions in terms of such constants. If the names are chosen properly, the data definition does not need an interpretation statement.
+
+'''
+(define RED 0)
+(define GREEN 1)
+(define YELLOW 2)
+
+;;
+; A TrafficLight is one of:
+; • RED
+; • GREEN
+; • YELLOW
+;
+'''
+
+
+'''
+(define LOCKED "locked")
+(define CLOSED "closed")
+(define OPEN "open")
+
+;;
+; A DoorState is one of:
+; • LOCKED
+; • CLOSED
+; • OPEN
+;
+'''
+
+
+
 ===== 5 Adding Structure =====
 
 
