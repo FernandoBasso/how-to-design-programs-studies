@@ -386,56 +386,17 @@ We also keep in mind the lesson of exercise 61, namely, that it is best to defin
 
 ===== 5 Adding Structure =====
 
-
-==== 5.1 From Positions to posn Structures ====
-
-
-==== 5.2 Computing with posns ====
-
-
-==== 5.3 Programming with posn ====
+'''
+(define p (make-posn -3 4))
+(+ (posn-x p) (posn-y p);
+'''
 
 
-==== 5.4 Defining Structure Types ====
+define-struct
 
-
-==== 5.5 Computing with Structures ====
-
-
-==== 5.6 Programming with Structures ====
-
-
-==== 5.7 The Universe of Data ====
-
-
-==== 5.8 Designing with Structures ====
-
-
-==== 5.9 Structure in the World ====
-
-
-==== 5.10 A Graphical Editor ====
-
-
-==== 5.11 More Virtual Pets ====
-
-
-===== 6 Itemizations and Structures =====
-
-
-==== 6.1 Designing with Itemizations, Again ====
-
-
-==== 6.2 Mixing Up Worlds ====
-
-
-==== 6.3 Input Errors ====
-
-
-==== 6.4 Checking the World ====
-
-
-==== 6.5 Equality Predicates ====
+constructor to create structure instance
+one selector per field
+structure predicate
 
 
 ===== 7 Summary =====
