@@ -398,6 +398,12 @@ constructor to create structure instance
 one selector per field
 structure predicate
 
+In the book, MIDDLE is for vertical stuff, CENTER for horizontal.
+
+In the MIDDLE of top/bottom vs in the CENTER of left/right.
+
+
+
 
 ===== 7 Summary =====
 
