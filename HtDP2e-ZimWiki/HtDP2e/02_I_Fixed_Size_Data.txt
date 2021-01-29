@@ -402,7 +402,7 @@ In the book, MIDDLE is for vertical stuff, CENTER for horizontal.
 
 In the MIDDLE of top/bottom vs in the CENTER of left/right.
 
-
+{{./updater-functional-setter.png}}
 
 
 ===== 7 Summary =====
