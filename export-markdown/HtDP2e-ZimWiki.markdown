@@ -1,2 +1,0 @@
-# HtDP2e-ZimWiki
-

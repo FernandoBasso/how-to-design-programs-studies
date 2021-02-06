@@ -1,9 +1,7 @@
 # How to Design Program - Book Studies and Solutions
 
 
-Book: https://htdp.org
-
-I keep notes in ZimWiki inside this project.
+Book (free online): https://htdp.org
 
 - ✔ 01-Prologue-How-to-Program
 - WORKING 02-I-Fixed-Size-Data
