@@ -15,7 +15,7 @@
 ;;
 ; Canvas with is ten times the height.
 ;
-(define W (* 3 H))
+(define W (* 10 H))
 
 ;;
 ; Text height is ¹¹/₂₀ of the height of the canvas. We ‘floor’ it
@@ -151,25 +151,82 @@
 
 (define (edit ed ke)
   (cond
-    [(string=? ke "\b")
-     (make-editor (string-remove-last (editor-pre ed))
-                  (editor-post ed))]
-    [(string=? ke "left")
-     (make-editor (string-remove-last (editor-pre ed))
-                  (string-append (string-last (editor-pre ed))
-                                 (editor-post ed)))]
-    [(string=? ke "right")
-     (make-editor (string-append (editor-pre ed)
-                                 (string-first (editor-post ed)))
-                  (string-rest (editor-post ed)))]
+    [(string=? ke "\b") (ed-remove-last ed)]
+    [(string=? ke "left") (ed-left ed)]
+    [(string=? ke "right") (ed-right ed)]
     [(and
       (= (string-length ke) 1)
       (not (string=? ke "\t"))
       (not (string=? ke "\n"))
       (not (text-too-large? ed)))
-     (make-editor (string-append (editor-pre ed) ke)
-                  (editor-post ed))]
+     (ed-insert ed ke)]
     [else ed]))
+
+
+;;
+; Editor -> Editor
+; Remove last char of ed post text.
+;
+(check-expect
+ (ed-remove-last (make-editor "" ""))
+ (make-editor "" ""))
+
+(check-expect
+ (ed-remove-last (make-editor "abc" "def"))
+ (make-editor "ab" "def"))
+
+(define (ed-remove-last ed)
+  (make-editor (string-remove-last (editor-pre ed))
+               (editor-post ed)))
+
+;;
+; Editor -> Editor
+; Moves last char of editor-pre to to the beginning of editor-pre.
+;
+(check-expect
+ (ed-left (make-editor "" "abc"))
+ (make-editor "" "abc"))
+
+(check-expect
+ (ed-left (make-editor "abc" "def"))
+ (make-editor "ab" "cdef"))
+
+(define (ed-left ed)
+  (make-editor (string-remove-last (editor-pre ed))
+               (string-append (string-last (editor-pre ed))
+                              (editor-post ed))))
+;;
+; Editor -> Editor
+; Moves first char of editor-post to to the end of editor-pre.
+;
+(check-expect
+ (ed-right (make-editor "abc" ""))
+ (ed-right (make-editor "abc" "")))
+
+(check-expect
+ (ed-right (make-editor "abc" "def"))
+ (make-editor "abcd" "ef"))
+
+(define (ed-right ed)
+  (make-editor (string-append (editor-pre ed)
+                              (string-first (editor-post ed)))
+               (string-rest (editor-post ed))))
+
+;;
+; Editor Char -> Editor
+; Inserts (appends) c at the end of editor-pre.
+;
+(check-expect
+ (ed-insert (make-editor "" "") "a")
+ (make-editor "a" ""))
+
+(check-expect
+ (ed-insert (make-editor "ab" "def") "c")
+ (make-editor "abc" "def"))
+
+(define (ed-insert ed c)
+  (make-editor (string-append (editor-pre ed) c)
+               (editor-post ed)))
 
 ;;
 ; String -> String
@@ -250,7 +307,7 @@
        CURSOR
        (text (editor-post ed) TH 'black)))
      ;;
-     ; Prevent last char from being placed in the middle of the end of
-     ; the canvas in such a way that it is cut in half or placed
-     ; almost entirely to the right of the canvas.
+     ; Prevent last char from being placed falling out of the right
+     ; edge of the canvas.
      (- W (/ H 2))))
+
